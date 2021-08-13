@@ -1,0 +1,126 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "testai3",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "version": "0.3.0",
+    "scope": "tree",
+    "id": "7bef8e6d-6957-463b-9efa-78246c82eba0",
+    "title": "TestSimpleAI",
+    "description": "测试",
+    "root": "e313fc6e-8e04-4f49-b132-038053a1dcaf",
+    "properties": {},
+    "nodes": {
+      "e313fc6e-8e04-4f49-b132-038053a1dcaf": {
+        "id": "e313fc6e-8e04-4f49-b132-038053a1dcaf",
+        "name": "Priority",
+        "title": "Priority",
+        "description": "",
+        "properties": {},
+        "display": {
+          "x": -156,
+          "y": -168
+        },
+        "children": [
+          "127d8b44-d00f-41f7-9898-92c0573d219c",
+          "ef1c6d22-12ef-4935-8a1a-7bde026971f5"
+        ]
+      },
+      "52c8ad87-f710-41d7-8fab-9cafd900d04e": {
+        "id": "52c8ad87-f710-41d7-8fab-9cafd900d04e",
+        "name": "DisCondition",
+        "title": "DisCondition",
+        "description": "距离条件",
+        "properties": {
+          "dis": 2
+        },
+        "display": {
+          "x": 108,
+          "y": -216
+        }
+      },
+      "127d8b44-d00f-41f7-9898-92c0573d219c": {
+        "id": "127d8b44-d00f-41f7-9898-92c0573d219c",
+        "name": "Sequence",
+        "title": "攻击行为",
+        "description": "攻击行为",
+        "properties": {},
+        "display": {
+          "x": -60,
+          "y": -180
+        },
+        "children": [
+          "52c8ad87-f710-41d7-8fab-9cafd900d04e",
+          "e20ace70-91c3-4510-afd6-e50929e71ece"
+        ]
+      },
+      "e20ace70-91c3-4510-afd6-e50929e71ece": {
+        "id": "e20ace70-91c3-4510-afd6-e50929e71ece",
+        "name": "Log",
+        "title": "Log",
+        "description": "Log",
+        "properties": {
+          "info": "攻击目标"
+        },
+        "display": {
+          "x": 108,
+          "y": -84
+        }
+      },
+      "ef1c6d22-12ef-4935-8a1a-7bde026971f5": {
+        "id": "ef1c6d22-12ef-4935-8a1a-7bde026971f5",
+        "name": "Log",
+        "title": "Log",
+        "description": "Log",
+        "properties": {
+          "info": "巡逻"
+        },
+        "display": {
+          "x": -12,
+          "y": 36
+        }
+      }
+    },
+    "display": {
+      "camera_x": 640,
+      "camera_y": 329.5,
+      "camera_z": 1,
+      "x": -264,
+      "y": -168
+    },
+    "custom_nodes": [
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "Log",
+        "category": "action",
+        "title": "Log",
+        "description": "Log",
+        "properties": {
+          "info": "log..."
+        }
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "TargetConditon",
+        "category": "condition",
+        "title": "TargetConditon",
+        "description": "目标条件",
+        "properties": {}
+      },
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "DisCondition",
+        "category": "condition",
+        "title": "DisCondition",
+        "description": "距离条件",
+        "properties": {
+          "dis": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "version": "0.3.0",
+    "scope": "tree",
+    "id": "777ed1c2-de8e-474b-897f-fba9013366a7",
+    "title": "A behavior tree",
+    "description": "",
+    "root": "be6dde35-3933-42ef-a640-3774521514d5",
+    "properties": {},
+    "nodes": {
+      "be6dde35-3933-42ef-a640-3774521514d5": {
+        "id": "be6dde35-3933-42ef-a640-3774521514d5",
+        "name": "CustomAction",
+        "title": "CustomAction",
+        "description": "",
+        "properties": {
+          "test": 1
+        },
+        "display": {
+          "x": 24,
+          "y": -72
+        }
+      }
+    },
+    "display": {
+      "camera_x": 640,
+      "camera_y": 301,
+      "camera_z": 1,
+      "x": -192,
+      "y": -72
+    },
+    "custom_nodes": [
+      {
+        "version": "0.3.0",
+        "scope": "node",
+        "name": "CustomAction",
+        "category": "action",
+        "title": "CustomAction",
+        "description": null,
+        "properties": {}
+      }
+    ]
+  }

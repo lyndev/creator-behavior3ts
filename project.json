@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "behavior-tree",
+  "id": "bcfc11db-501f-4dcb-893e-65d4554efe0a",
+  "version": "2.4.3",
+  "isNew": false
+}
